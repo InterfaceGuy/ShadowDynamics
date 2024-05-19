@@ -22,10 +22,10 @@ class ShadowDynamics(ThreeDScene):
 
     def construct(self):
 
-        moloch_consciousness = MolochConsciousness(creation=True)
+        moloch_consciousness = MolochConsciousness(h=PI, creation=True)
         magnetized_grid = MagnetizedGrid(input_object=moloch_consciousness)
 
-        self.play(Create(moloch_consciousness), run_time=3)
+        #self.play(Create(moloch_consciousness), run_time=3)
 
 
 if __name__ == "__main__":

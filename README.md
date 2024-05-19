@@ -1,1 +1,3 @@
 # ShadowDynamics
+![](ShadowDynamics.gif)
+
